@@ -1,1 +1,5 @@
-new Player(responsive(true))
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
+
+new Player(responsive(true));
