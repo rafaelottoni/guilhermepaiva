@@ -1,0 +1,60 @@
+@media only screen and (min-width: 788px) and (max-width: 959px) {
+
+.contato p {
+	padding-top: 40px;
+	text-align: center;
+	font-size: 24pt;
+	line-height: 30pt;
+	color: #9A9A9A;
+
+}
+
+.contato a {
+	font-size: 20pt;
+	line-height: 30pt;
+	text-align: center;
+}
+
+video {
+	width: 748px;
+	height: auto;
+}
+
+
+}
+
+@media only screen and (max-width: 787px) {
+
+.header {
+	padding: 100px 0px 0px 0px;
+	text-align: center;
+}
+
+.sobre p {
+	padding-top: 25px;
+	font-size: 12pt;
+	line-height: 18pt;
+	padding-bottom: 0px;
+}
+
+.contato p {
+	padding-top: 40px;
+	text-align: center;
+	font-size: 16pt;
+	line-height: 26pt;
+	color: #9A9A9A;
+
+}
+
+.contato a {
+	font-size: 16pt;
+	line-height: 26pt;
+	text-align: center;
+}
+
+video {
+	width: 300px;
+	height: auto;
+}
+
+}

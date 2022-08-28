@@ -1,0 +1,155 @@
+/* Estilos Gerais */
+body {
+	font-family: "futura-pt", "Arial", sans-serif;
+	font-size: 14pt;
+	line-height: 22pt;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+video {
+     max-width: 100%;
+     height: auto;
+}
+
+.subtitulo {
+	font-size: 26pt;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .3em;
+	font-weight: 300;
+	line-height: 1.1em;
+}
+
+/* Header */
+.header {
+	padding: 70px 0px 0px 0px;
+	text-align: center;
+}
+
+.header img {
+	margin: 0 auto;
+}
+
+
+.header_menu {
+	text-align: center;
+	padding: 70px 0 40px 0;
+}
+
+.header_menu ul li{
+	display: inline-block;
+	padding: 0px 30px 0px 30px;
+}
+
+.header_menu ul li a{
+	color: #9A9A9A;
+	letter-spacing: .3em;
+	font-weight: normal;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.header_menu ul li a:hover {
+	color: #5d5d5d;
+}
+
+
+/* Footer */
+
+.footer_redes {
+	text-align: center;
+	padding-top: 40px; 
+}
+
+.footer_redes ul li {
+	display: inline-block;
+	align-content: center;
+	padding: 0px 12px 0px 12px;
+
+}
+
+.sobre p {
+	font-size: 14pt;
+	line-height: 21pt;
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+
+
+/* Reel */
+.reel_vimeo {
+	padding:56.25% 0 0 0;
+	position:relative;
+}
+
+.video {
+	height: 720px;
+	text-align: center;
+}
+
+/* Contato */
+
+.contato p {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 24pt;
+	font-weight:500;
+	line-height: 34pt;
+	color: #9A9A9A;
+
+}
+
+.contato a {
+	font-size: 28pt;
+	font-family: 'Poppins', sans-serif;
+	line-height: 36pt;
+	color: #5d5d5d;
+	text-decoration: none;
+
+}
+
+
+.contato a:hover {
+	color: #000;
+
+
+}
+
+
+.contato1 {
+	padding: 60px 0px 60px 0px;
+	text-align: center;
+}
+
+.contato1 img {
+	margin: 0 auto;
+}
+
+/*JAVASCRIPT*/
+
+[data-anime] {
+  opacity: 0;
+}
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: transform .8s, opacity .8s;
+}
+
+/* 7 CSS personalizado dependendo da animação desejada */
+.fadeInDown {
+  transform: translate3d(0,-20px,0);
+}
+.fadeInUp {
+  transform: translate3d(0,20px,0);
+}
+.fadeInRight {
+  transform: translate3d(20px,0,0);
+}
+.fadeInLeft {
+  transform: translate3d(-20px,0,0);
+}

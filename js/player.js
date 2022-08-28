@@ -1,0 +1,1 @@
+new Player(responsive(true))
