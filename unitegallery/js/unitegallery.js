@@ -18369,7 +18369,7 @@ function UGVimeoAPI(){
 			return(true);
 		}
 
-		g_ugFunctions.loadJs("f.vimeocdn.com/js/froogaloop2.min.js", true);
+		g_ugFunctions.loadJs("a.vimeocdn.com/js/froogaloop2.min.js", true);
 		
 		g_ugVimeoAPI.isAPILoaded = true;		
 	}
